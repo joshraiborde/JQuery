@@ -47,3 +47,29 @@ $("h1").on("mouseover", function() {
     $("h1").css("color", "orange")
    // console.log(event.key)
 })
+
+// $("button").on("click", function() {
+//     $("h1").hide();
+//     $("h1").show();
+//     $("h1").toggle();
+// });
+
+// $("button").on("click", function() {
+//     $("h1").fadeOut();
+//     $("h1").fadeIn();
+//     $("h1").fadeToggle();
+// });
+
+// $("button").on("click", function() {
+    // $("h1").slideUp();
+    // $("h1").slideOut();
+    // $("h1").slideToggle();
+// });
+
+// $("button").on("click", function() {
+//     $("h1").animate({opacity: 0.5});
+// });
+
+$("button").on("click", function() {
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
+});
